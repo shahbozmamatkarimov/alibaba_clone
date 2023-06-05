@@ -1,6 +1,6 @@
 let api;
 try {
-    const { data } = await useFetch("https://fakestoreapi.com/products?limit=5&sort=desc");
+    const { data } = useFetch("https://fakestoreapi.com/products?limit=5&sort=desc");
     api = data;
 } catch (error) {
     console.log(error);
